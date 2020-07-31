@@ -51,7 +51,7 @@ Step 4: Start the desired process
 
 ## Built With
 
-* [Python](https://www.python.org/downloads/) - The web framework used
+* [Python](https://www.python.org/downloads/)
 
 ## Authors
 
