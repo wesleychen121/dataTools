@@ -2,7 +2,7 @@
 
 This is a repository of data entry tools to help automate routine practices such as scraping data from documents and formatting it.
 <br>
-pdfScraper.py is a module to scrape a pdf and format it according to the Section 1983 Chicago Police Department Lawsuits Codebook.
+**pdfScraper.py** is a module to scrape a pdf and format it according to the Section 1983 Chicago Police Department Lawsuits Codebook.
 
 ## Getting Started
 
