@@ -1,8 +1,36 @@
 # Data Tools
 
 This is a repository of data entry tools to help automate routine practices such as scraping data from documents and formatting it.
-<br>
-**pdfScraper.py** is a module to scrape a pdf and format it according to the Section 1983 Chicago Police Department Lawsuits Codebook.
+
+## pdfScraper.py
+The PDF Scraper module is an application that scrapes a pdf and formats it according to the [Section 1983 Chicago Police Department Lawsuits Codebook](Docket_Sheet_Raw_Data_Codebook.docx).
+
+### Features include
+
+* Cleans up OCR errors including superfluous white space and misreads
+
+* Eliminates newlines
+
+* Formats names in the John Doe|Jane Doe format specified by the codebook
+
+* Labels text by page
+
+* Eliminates copy paste errors
+
+## DataMacros.bas
+The Data Macros module contains excel macros written in VBA that automatically populate cells according to the Codebook.
+
+### Features include
+
+* **RaymondSimon** - Fills in the name and address for Raymond Simon, a common attorney for defendants
+
+* **NoJury** - Fills in all the info that can be assumed from No Jury trial
+
+* **NoThirdNoA** - Enters No for Third_Party_Intervention and Appealed
+
+* **FinalLiability** - Copies plaintiffs to final_liability cell
+
+* **FinalJudgement** - Copies jury verdict text to the final judgement text cell
 
 ## Getting Started
 
